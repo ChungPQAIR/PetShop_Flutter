@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:PetShop/pages/home.dart';
 import 'package:provider/provider.dart';
 
+import 'login_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
