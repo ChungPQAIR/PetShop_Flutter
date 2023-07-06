@@ -4,7 +4,6 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:PetShop/pages/dogharness.dart';
 import 'package:PetShop/pages/dogitems.dart';
 import 'package:PetShop/pages/keranjang.dart';
-import 'package:PetShop/pages/kibbles.dart';
 import 'package:PetShop/pages/rabbitfood.dart';
 import 'package:PetShop/pages/whiskas.dart';
 
@@ -225,7 +224,7 @@ class HomePage extends StatelessWidget {
                       color: Color(0xFF0BCCFE),
                     ),
                     Text(
-                      "Bandung, Indonesia",
+                      "60 Láng Hạ , Hà Nội",
                       style: GoogleFonts.poppins(
                           fontSize: 16,
                           fontWeight: FontWeight.w500,
@@ -271,4 +270,6 @@ class HomePage extends StatelessWidget {
 
     );
   }
+  
+  kibblesPage() {}
 }
